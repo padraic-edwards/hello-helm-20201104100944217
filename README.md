@@ -3,7 +3,7 @@
 Try to deploy it to Kubernetes with this IBM Cloud DevOps toolchain: https://github.com/open-toolchain/simple-helm-toolchain fully preconfigured for you.
 
 
-Note: The Helm chart was created using a 'helm create hello' command, then altered to pass an image pull secret (to enable later deployments from private image registries), i.e.  
+Note: The Helm chart was created using a 'helm create hello' command, then altered to pass an image pull secret (to enable later deployments from private image registries),   
 
 - in [/chart/hello/templates/deployment.yaml](https://github.com/open-toolchain/hello-helm/blob/56ccf087e2d8fc18f7774f84f9400f02060736f2/chart/hello/templates/deployment.yaml#L18-L19):
 ```
